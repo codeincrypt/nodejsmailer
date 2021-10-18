@@ -1,0 +1,29 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "Send email from node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeincrypt/nodejsmailer.git"
+  },
+  "keywords": [
+    "Mail"
+  ],
+  "author": "Kartik Swarnkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeincrypt/nodejsmailer/issues"
+  },
+  "homepage": "https://github.com/codeincrypt/nodejsmailer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.1",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
